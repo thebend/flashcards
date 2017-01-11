@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>हिंदी / Hindi Flashcards</title>
+        <meta charset="UTF-8" />
+        <link href="flashcards.css" rel="stylesheet" />
+        <script src="hindi.js"></script>
+        <script src="flashcards.js"></script>
+    </head>
+    <!-- Ability to go back, change URL -->
+    <!-- Buttons to toggle numbers, vowels, consonants, miscellaneous characters -->
+    <body onload="init();" onclick="next();" onkeypress="next();">
+        <section id="character-group-controls"></section>
+        <section id="card">
+            <h1 id="character"></h1>
+            <section id="help">
+                <p id="pronounciation"></p>
+                <p id="examples"></p>
+            </section>
+        </section>
+    </body>
+</html>
