@@ -184,7 +184,7 @@ var hindi = {
     'miscellaneous': {
         'ॐ': {
             'pronounciation': 'ohm',
-            'examples': ['Mediation / peace / balance']
+            'examples': ['Meditation / peace / balance']
         },
         '।': {
             'pronounciation': '-',
